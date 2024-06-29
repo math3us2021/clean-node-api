@@ -2,9 +2,9 @@
   "extends": "standard-with-typescript",
   "parserOptions": {
     "project": "./tsconfig.json"
-  }
-//  "rules": {
-//    "@typescript-eslint/strict-boolean-expressions": "off",
+  },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off"
 //    "@typescript-eslint/space-before-function-paren": "off",
 //    "@typescript-eslint/no-base-to-string": "off",
 //    "@typescript-eslint/no-misused-promises": "off",
@@ -14,5 +14,5 @@
 //    "@typescript-eslint/prefer-includes": "off",
 //    "arrow-parens": ["error", "as-needed"],
 //    "comma-dangle": ["error", "never"]
-//  }
+  }
 }
