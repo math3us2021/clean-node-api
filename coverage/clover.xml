@@ -1,61 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720057102954" clover="3.2.0">
-  <project timestamp="1720057102954" name="All files">
-    <metrics statements="52" coveredstatements="46" conditionals="13" coveredconditionals="11" methods="5" coveredmethods="3" elements="70" coveredelements="60" complexity="0" loc="52" ncloc="52" packages="3" files="4" classes="4"/>
-    <package name="controllers.singup">
-      <metrics statements="47" coveredstatements="43" conditionals="12" coveredconditionals="11" methods="4" coveredmethods="3"/>
-      <file name="signup.ts" path="/home/matheus/estudos/clean-node-api/src/presentation/controllers/singup/signup.ts">
+<coverage generated="1720057930148" clover="3.2.0">
+  <project timestamp="1720057930148" name="All files">
+    <metrics statements="46" coveredstatements="46" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3" elements="60" coveredelements="60" complexity="0" loc="46" ncloc="46" packages="2" files="2" classes="2"/>
+    <package name="controllers.signup">
+      <metrics statements="43" coveredstatements="43" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3"/>
+      <file name="signup.ts" path="/home/matheus/estudos/clean-node-api/src/presentation/controllers/signup/signup.ts">
         <metrics statements="43" coveredstatements="43" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="9" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="11" count="10" type="stmt"/>
-        <line num="12" count="10" type="stmt"/>
-        <line num="13" count="10" type="stmt"/>
-        <line num="14" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="10" type="stmt"/>
-        <line num="16" count="10" type="stmt"/>
-        <line num="17" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="34" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="38" type="cond" truecount="1" falsecount="0"/>
         <line num="19" count="4" type="stmt"/>
         <line num="20" count="4" type="stmt"/>
-        <line num="21" count="34" type="stmt"/>
-        <line num="22" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="23" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="38" type="stmt"/>
+        <line num="22" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="11" type="cond" truecount="1" falsecount="0"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
-        <line num="26" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="27" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="11" type="cond" truecount="1" falsecount="0"/>
         <line num="28" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
-        <line num="30" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="36" count="3" type="stmt"/>
-        <line num="37" count="3" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
-        <line num="39" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="42" count="10" type="stmt"/>
-        <line num="43" count="10" type="stmt"/>
-      </file>
-      <file name="singup-protocols.ts" path="/home/matheus/estudos/clean-node-api/src/presentation/controllers/singup/singup-protocols.ts">
-        <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="39" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="11" type="stmt"/>
+        <line num="43" count="11" type="stmt"/>
       </file>
     </package>
     <package name="errors">
@@ -65,14 +58,6 @@
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="protocols">
-      <metrics statements="2" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="index.ts" path="/home/matheus/estudos/clean-node-api/src/presentation/protocols/index.ts">
-        <metrics statements="2" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
       </file>
     </package>
   </project>
