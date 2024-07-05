@@ -1,4 +1,4 @@
-import { badRequest, serverError } from '../../helpers/http-helpers'
+import { badRequest, serverError, ok } from '../../helpers/http-helpers'
 import { InvalidParamsError, MissingParamsError } from '../../errors'
 import { type EmailValidator, type Controller, type HttpRequest, type HttpResponse, type AddAccount } from './singup-protocols'
 
@@ -11,7 +11,7 @@ export class SingUpController implements Controller {
     this.addAccount = addAccount
   }
 
-  handle (httpRequest: HttpRequest): HttpResponse {
+  async handle (httpRequest: HttpRequest): Promise<HttpResponse> {
     try {
       const requiredField = ['name', 'email', 'password', 'passwordConfirmation']
       for (const field of requiredField) {
@@ -27,15 +27,12 @@ export class SingUpController implements Controller {
       if (!isValid) {
         return badRequest(new InvalidParamsError('email'))
       }
-      const account = this.addAccount.add({
+      const account = await this.addAccount.add({
         name,
         email,
         password
       })
-      return {
-        statusCode: 200,
-        body: account
-      }
+      return ok(account)
     } catch (error) {
       return serverError()
     }
